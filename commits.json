@@ -10,7 +10,6 @@
   {"message": "feat(http): auth, upload, leitura, IA, respostas e dashboard", "files": ["internal/handler/handler.go", "internal/handler/auth.go", "internal/handler/books.go", "internal/handler/reading.go", "internal/handler/ai_handlers.go", "internal/handler/dashboard.go"]},
   {"message": "feat(server): main Gin, CORS e health", "files": ["cmd/server/main.go"]},
   {"message": "docs: README, env exemplo, commits.json e estratégia + scheduler", "files": ["README.md", ".env.example", "COMMIT_STRATEGY.md", "commit_scheduler.py", "commits.json"]},
-  {"message": "docs: nota sobre push unico quando historico ja existe no Git", "files": ["docs/DESENVOLVIMENTO_FASES.md"]},
   {"message": "feat(db): phase2 tabelas e migrate idempotente", "files": ["internal/database/database.go", "internal/database/schema_phase2.sql", "migrations/002_phase2.sql"]},
   {"message": "feat(ai): resumo de capítulo e flashcards JSON", "files": ["internal/ai/summary_flashcards.go"]},
   {"message": "feat(repo): chapter summary, flashcard e concat páginas", "files": ["internal/repository/book.go", "internal/repository/chapter_summary.go", "internal/repository/flashcard.go"]},
