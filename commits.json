@@ -21,7 +21,6 @@
   {"message": "feat(plan): limites freemium por livro e perguntas diárias", "files": ["internal/limiter/plan.go", "internal/repository/usage.go"]},
   {"message": "feat(web): criar base do frontend Next.js e páginas principais", "files": ["web/app/books/[id]/read/page.tsx", "web/app/dashboard/page.tsx", "web/app/globals.css", "web/app/layout.tsx", "web/app/login/page.tsx", "web/app/page.tsx", "web/app/upload/page.tsx", "web/lib/api.ts", "web/next-env.d.ts", "web/next.config.mjs", "web/package.json", "web/tsconfig.json"]},
   {"message": "chore(container): adicionar Dockerfile e ajustes de deploy", "files": [".dockerignore", "Dockerfile", "docs/DEPLOY.md"]},
-  {"message": "feat(ai): migrar cliente para Gemini e atualizar configuração", "files": ["internal/ai/openai.go", "pkg/config/config.go", "cmd/server/main.go", ".env.example"]},
   {"message": "docs(ai): atualizar documentação da migração para Gemini", "files": ["README.md", "docs/DEPLOY.md", "docs/DESENVOLVIMENTO_FASES.md", "COMMIT_STRATEGY.md", "commits.json"]},
   {"message": "docs: adicionar go-live checklist", "files": ["docs/GO_LIVE_CHECKLIST.md", "docs/DESENVOLVIMENTO_FASES.md", "commits.json"]},
   {"message": "feat(mcq): endpoint de perguntas de múltipla escolha por página", "files": ["internal/ai/openai.go", "internal/ai/service.go", "internal/ai/mock.go", "internal/handler/ai_handlers.go", "internal/handler/handler.go", "web/app/books/[id]/questions/page.tsx"]},
